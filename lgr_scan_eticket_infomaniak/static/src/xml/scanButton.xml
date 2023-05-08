@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="InfomaniakScanButton" owl="1">
+        <div class="control-button" t-on-click="onClick">
+            <i class="fa fa-qrcode" role="img"/> Scan e-ticket
+        </div>
+    </t>
+
+</templates>

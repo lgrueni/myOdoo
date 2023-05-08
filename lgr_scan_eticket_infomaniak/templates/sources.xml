@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>        
+    <template id="lgr_scan_eticket_infomaniak.assets" inherit_id="point_of_sale.assets">
+        <xpath expr="." position="inside">
+            <!-- CSS -->
+            <link rel="stylesheet" href="/lgr_scan_eticket_infomaniak/static/src/css/pos.css"/>
+            <!-- Local code -->
+            <script type="text/javascript" src="/lgr_scan_eticket_infomaniak/static/src/js/SuccessPopup.js"></script>
+            <script type="text/javascript" src="/lgr_scan_eticket_infomaniak/static/src/js/ScanButton.js"></script>
+        </xpath>
+    </template>
+</odoo>
