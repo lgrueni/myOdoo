@@ -21,16 +21,6 @@
 	"version" : "1.1.0",
 	"author" : "Louis Grüninger",
     "licence": "GPL-3 or any later version",
-	"description" : '''
-    Scan eticket from Infomaniak on POS. You need to create an API key on Infomaniak:
-    <ul>
-		<li>Go in the manager <a href="https://manager.infomaniak.com">https://manager.infomaniak.com</a></li>
-        <li>Go in e-tickets box office</li>
-        <li>Choose the ticketing system</li>
-        <li>On the left panel, choose "Shop / Availability online" then "API access"</li>
-        <li>Click "add"</li>
-    </ul>
-    ''',
 	"depends" : [
 		'base',
 		'point_of_sale'
